@@ -1,0 +1,44 @@
+body {
+  background-color: #e6f7f5;
+  color: #333333;
+}
+
+h1, h2, .brand {
+  color: #6b3fa0;
+}
+
+.brand {
+  font-size: 24px;
+}
+
+.card i {
+  color: #159e96;
+}
+
+.btn-primary {
+  --bs-btn-bg: #6b3fa0;
+  --bs-btn-border-color: #6b3fa0;
+  --bs-btn-hover-bg: #573182;
+  --bs-btn-hover-border-color: #573182;
+  --bs-btn-active-bg: #573182;
+  --bs-btn-active-border-color: #573182;
+}
+
+footer {
+  background-color: #6b3fa0;
+}
+
+.my-svg-icon {
+  cursor: pointer;
+}
+
+.my-svg-icon circle {
+  transform-origin: center;
+  transition: fill 0.3s, stroke 0.3s, transform 0.3s;
+}
+
+.my-svg-icon:hover circle {
+  fill: #6b3fa0;
+  stroke: #6b3fa0;
+  transform: scale(1.1);
+}
